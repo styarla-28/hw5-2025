@@ -3,7 +3,6 @@ let vid = document.getElementById("player1");
 
 window.addEventListener("load", function () {
 	console.log("Good job opening the window")
-
 });
 
 document.querySelector("#play").addEventListener("click", function () {
@@ -65,9 +64,5 @@ document.querySelector("#vintage").addEventListener("click", function () {
 });
 
 document.querySelector("#orig").addEventListener("click", function () {
-	vid.classList.toggle("");
+	vid.classList.remove("oldSchool");
 });
-
-
-
-
