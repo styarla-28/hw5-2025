@@ -6,12 +6,12 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
 .video{
 	display: block;
 	width: 90%;
 	border: 2px solid black;
 	margin: 0 auto;
-	
 }
 
 figcaption{
