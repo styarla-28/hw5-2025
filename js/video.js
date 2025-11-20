@@ -1,6 +1,5 @@
 let vid = document.getElementById("player1");
 
-
 window.addEventListener("load", function () {
 	console.log("Good job opening the window")
 });
@@ -48,8 +47,6 @@ document.querySelector("#mute").addEventListener("click", function () {
 		document.getElementById("mute").textContent = "Mute";
 	}
 });
-
-// vidVolume.textContent = '${Math.round(volumeSlider*100)}%';
 
 document.querySelector("#slider").addEventListener("input", function () {
 	let vidVolume = document.getElementById("volume");
