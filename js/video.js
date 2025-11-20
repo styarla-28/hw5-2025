@@ -52,11 +52,10 @@ document.querySelector("#mute").addEventListener("click", function () {
 // vidVolume.textContent = '${Math.round(volumeSlider*100)}%';
 
 document.querySelector("#slider").addEventListener("input", function () {
-	let volumeSlider = document.getElementById("slider");
 	let vidVolume = document.getElementById("volume");
 
-	vid.volume = volumeSlider.value;
-	vidVolume.textContent = '${Math.round(vid.volume*100)}%';
+	vid.value = this.value;
+	vidVolume.textContent = Math.round(vid.value)+'%';
 });
 
 
