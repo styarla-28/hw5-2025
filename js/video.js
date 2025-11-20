@@ -55,7 +55,8 @@ document.querySelector("#slider").addEventListener("input", function () {
 	let vidVolume = document.getElementById("volume");
 
 	vid.value = this.value;
-	vidVolume.textContent = Math.round(vid.value)+'%';
+	vidVolume.textContent = vid.value+'%';
+	console.log("The current Volume is:",(vid.value/100))
 });
 
 
